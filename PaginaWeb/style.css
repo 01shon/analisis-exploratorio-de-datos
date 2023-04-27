@@ -1,0 +1,147 @@
+/* Fuente de letra principal */
+body {
+	font-family: Arial Black, Impact, sans-serif;
+}
+
+/* Estilo de enlace */
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Encabezado */
+header {
+	background-color: #333;
+	padding: 20px;
+}
+
+/* Barra de navegación */
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	font-size: 18px;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+
+nav a:hover {
+	background-color: #555;
+}
+
+/* Imagen del héroe */
+.hero-image {
+	background-image: url("hero-image.jpg");
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-align: center;
+}
+
+.hero-image h1 {
+	font-size: 50px;
+	margin: 0;
+}
+
+.hero-image p {
+	font-size: 24px;
+	margin: 20px 0;
+}
+
+.hero-image button {
+	background-color: #ff6f00;
+	color: #fff;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.hero-image button:hover {
+	background-color: #fff;
+	color: #ff6f00;
+}
+
+/* Sección de productos destacados */
+.featured-products {
+	background-color: #fff;
+	padding: 50px 20px;
+	text-align: center;
+}
+
+.featured-products h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+.featured-products ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.featured-products li {
+	width: 300px;
+	margin: 20px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease;
+}
+
+.featured-products li:hover {
+	transform: translateY(-10px);
+}
+
+.featured-products img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.featured-products h3 {
+	font-size: 24px;
+	margin: 20px 0;
+}
+
+.featured-products p {
+	font-size: 16px;
+	margin: 10px 0;
+}
+
+.featured-products button {
+	background-color: #ff6f00;
+	color: #fff;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.featured-products button:hover {
+	background-color: #fff;
+	color: #ff6f00;
+}
